@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./components/header/header";
 
 
 
 const App = () => {
   return (
-    <div>
-
+    <div style={{ width: 100 + "%" }}>
+      <Header />
     </div>
   );
 };
